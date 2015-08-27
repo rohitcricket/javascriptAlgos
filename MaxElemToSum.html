@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<script>
+
+
+var createArray = function(sum, a, b, c){
+	var sum;
+	var a,b,c;
+	var array = [sum, a, b, c];
+	return array;
+};
+
+var maxElem = function(array){
+	var elemArray = array;
+	var sum = 0;
+	for (var i = 1; i < elemArray.length; i++){
+		for (var j = 1; j < elemArray.length; j++){
+		//console.log(elemArray[i]);
+		console.log('Sum is: ' + elemArray[0]);
+		console.log('I am the answer ' + elemArray[0]);
+		//console.log(elemArray[j]);
+		console.log(elemArray[i] + elemArray[j]);
+			if (elemArray[0] === (elemArray[i] + elemArray[j])) {
+				console.log(elemArray[i] + elemArray[j]);
+			} else {console.log('sum not found')};
+		}
+	}
+};
+
+//console.log(createArray(10,7,2,3));
+maxElem(createArray(10,7,2,3));
+
+</script>
+</html>
