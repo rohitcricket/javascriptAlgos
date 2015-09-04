@@ -1,5 +1,9 @@
 # JAVASCRIPT ALGORITHMS:
 
+# <h2>Mission and Purpose:</h2>
+
+The mission and purpose of these problems is to learn algorithms and solve puzzles to become a good coder. 
+
 # <h3>Problem #1:</h3>
 
 Given an array of positive integers and an integer sum, find the maximum number of elements in the given array that sum up to sum.
