@@ -7,9 +7,8 @@
 	var result = [];
 
 	for (var i = 0; i < myArray.length; i++){
-		firstNum = myArray[i];
-		if (myArray[i+1] != firstNum) {
-			result.push(firstNum);
+		if (myArray[i+1] != myArray[i]) {
+			result.push(myArray[i]);
 		}
 	}
 

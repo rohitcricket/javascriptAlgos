@@ -1,6 +1,6 @@
-JAVASCRIPT ALGORITHMS:
+# JAVASCRIPT ALGORITHMS:
 
-Problem #1:
+# <h3>Problem #1:</h3>
 
 Given an array of positive integers and an integer sum, find the maximum number of elements in the given array that sum up to sum.
 
@@ -13,7 +13,7 @@ Given an array of positive integers and an integer sum, find the maximum number 
 	Output → integer : Maximum number of elements that sum up to sum. Return 0 if it can't be done.
 
 
-Problem #2:
+# <h3>Problem #2:</h3>
 
 Find the element that appears once in a sorted array.
 
