@@ -1,0 +1,20 @@
+<html>
+<script>
+
+function chunk(arr, size) {
+  // Break it up.
+  var temp = [];
+  for (var i = 0; i < arr.length; i++){
+  	for (var j = 0; j < size; j++){
+
+		temp.push(arr[j]); 	
+  	}
+  }
+  console.log(temp);
+  //return arr;
+}
+
+chunk(['a', 'b', 'c', 'd'], 2);
+
+</script>
+</html>
