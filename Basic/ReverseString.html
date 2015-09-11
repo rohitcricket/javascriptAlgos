@@ -1,0 +1,24 @@
+<html>
+<script>
+
+// Method 1: use JS library functions
+function reverseOne(str) {
+  return str.split('').reverse().join('');
+}
+
+console.log(reverseOne('hello'));
+
+// Method 2: use for-loop in reverse
+
+function reverseTwo(s){
+	var temp = '';
+	for (var i = s.length-1; i >= 0; i--){
+		temp = temp + s[i];
+	}
+	return temp;
+}
+
+console.log(reverseTwo('bonjour'));
+
+</script>
+</html>

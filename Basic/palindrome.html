@@ -1,0 +1,40 @@
+<html>
+<script>
+
+
+function palindrome(str) {
+  // Good luck!
+  mkStr = str.toString();
+  console.log(mkStr);
+  pStr = mkStr.replace(/\'/g, '');
+  qStr = pStr.replace(/\?/g, '');
+  rmStr = qStr.replace(/\./g, '');
+  console.log(rmStr);
+  newStr = rmStr.replace(/\,/g, '');
+  console.log(newStr);
+  trimStr = newStr.replace(/ /g,'')
+  console.log(trimStr);
+  lowStr = trimStr.toLowerCase();
+  console.log(lowStr);
+  var palin = lowStr.split('').reverse().join('');
+  console.log(palin);
+  if (palin === lowStr){
+  	  return true;
+  	} else { return false;}
+}
+
+
+/*
+console.log(palindrome("eye"));
+console.log(palindrome("make"));
+console.log(palindrome("EYE"));
+console.log(palindrome("tomATO"));
+console.log(palindrome("Race car"));
+console.log(palindrome("A man, a plan, a canal, Panama"));
+*/
+console.log(palindrome("My age is 0, 0 si ega ym."));
+console.log(palindrome("I'm 23 non 32 m'I?"));
+
+</script>
+
+</html>

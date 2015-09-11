@@ -1,0 +1,21 @@
+<html>
+<script>
+
+function factorialize(num) {
+	if (num < 1) {console.log('Enter a number greater than zero');}
+	else{
+	  var fact = 1;
+	  for (var i = 1; i <= num; i++){
+	    fact = fact * i;
+	  }
+	  return fact;
+	}
+}
+
+console.log(factorialize(5));
+console.log(factorialize(6));
+console.log(factorialize(1));
+console.log(factorialize(-1));
+
+</script>
+</html>

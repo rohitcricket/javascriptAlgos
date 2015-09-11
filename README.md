@@ -2,7 +2,29 @@
 
 # <h2>Mission and Purpose:</h2>
 
-The mission and purpose of these problems is to learn algorithms and solve puzzles to become a good coder. 
+The mission and purpose of these problems is to learn algorithms and solve puzzles to become a good coder. There are three levels of difficulty: basic, intermediate and advanced. 
+
+# <h2>Basic Algorithms</h2>
+
+ - Reverse a String 
+ - Factorialize a Number 
+ - Check for Palindromes 
+ - Find the Longest Word in a String 
+ - Title Case a Sentence 
+ - Return Largest Numbers in Arrays 
+ - Confirm the Ending of a String
+ - Repeat a string repeat a string 
+ - Truncate a string 
+ - Chunky Monkey 
+ - Slasher Flick 
+ - Mutations 
+ - Falsy Bouncer 
+ - Seek and Destroy 
+ - Where do I belong
+
+# <h2>Intermediate Algorithms</h2>
+
+# <h2>Advanced Algorithms</h2>
 
 # <h3>Problem #1:</h3>
 
