@@ -3,13 +3,23 @@
 
 function titleCase(str) {
 
-		var newStr = str.charAt(0).toUpperCase() + str.slice(1);
-		console.log(newStr);
-
+  var words = str.split(" ");
+   var arr = [];
+   for (i in words)
+   {
+      temp = words[i].toLowerCase();
+      temp = temp.charAt(0).toUpperCase() + temp.substring(1);
+      arr.push(temp);
+   }
+   return arr.join(" ");
 
 }
-//titleCase("I'm a little tea pot");
+titleCase("I'm a little tea pot");
 titleCase("hello world");
+titleCase("I'm a little tea pot");
+titleCase("sHoRt AnD sToUt");
+titleCase("HERE IS MY HANDLE HERE IS MY SPOUT");
+
 
 </script>
 </html>
