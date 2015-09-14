@@ -1,0 +1,29 @@
+<html>
+<script>
+
+function sumAll(arr) {
+
+	if (arr[0] < arr[1]) {
+		var first = arr[0];
+		var last = arr[1];
+	} else {
+		var first = arr[1];
+		var last = arr[0];
+	}
+
+	var sum = 0;
+	for (var i = first; i < last+1; i++){
+		sum = sum + i;
+	}
+  //return 1;
+  console.log(sum);
+
+}
+
+sumAll([1, 4]);
+sumAll([5, 10]);
+sumAll([4, 1]);
+sumAll([10, 5]);
+
+</script>
+</html>

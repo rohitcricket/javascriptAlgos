@@ -15,14 +15,16 @@ The mission and purpose of these problems is to learn algorithms and solve puzzl
 - Confirm the Ending of a String
 - Repeat a string repeat a string 
 - Truncate a string 
-- Chunky Monkey 
-- Slasher Flick 
-- Mutations 
-- Falsy Bouncer 
-- Seek and Destroy 
-- Where do I belong
+- Split an array (first argument) into groups the length of size (second argument)
+- Chop off n elements from an array
+- First element of the array contains all of the letters of the string in the second element of the array
+- Remove all falsy values from an array
+- Remove all elements from an array that are of the same value as given arguments
+- Return lowest index at which a value should be inserted into a sorted array
 
 # <h2>Intermediate Algorithms</h2>
+
+- Sum all numbers in a range
 
 # <h2>Advanced Algorithms</h2>
 
